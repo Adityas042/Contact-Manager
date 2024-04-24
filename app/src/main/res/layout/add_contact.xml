@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="50dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_contact"
+        android:text="NEW CONTACT"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:lineSpacingExtra="10sp"
+        android:layout_marginBottom="15sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CONTACT NAME?"
+        android:id="@+id/name1"
+        android:lines="4"
+        android:gravity="top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CONTACT EMAIL?"
+        android:id="@+id/email1"
+        android:lines="4"
+        android:gravity="top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
